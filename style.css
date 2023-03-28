@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #cee7fa;
+}
+img{
+    width: 6rem;
+}
+
+#container{
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    text-align: center;
+    color: #f0f8ff;
+    font-size: 24px;
+}
+
+#jogador{
+    position: relative;
+    flex-grow: 1;
+    background-color: #ec2866;
+    max-width: 20rem;
+    border-radius: 5px;
+}
+
+#jogador a, #computador img{
+    opacity: 0.5;
+}
+#jogador a:hover{
+    cursor: pointer;
+}
+#jogador a:hover, #jogador a.selecionado, #computador img.selecionado{
+    opacity: 1;
+}
+
+#computador{
+    background-color: #2897ec;
+    flex-grow: 1;
+    max-width: 20rem;
+    position: relative;
+    border-radius: 5px;
+}
+
+#versus{
+    font-size: 32px;
+    padding: 0 30px;
+}
+
+#mensagem-container{
+    display: flex;
+    justify-content: center;
+    background-color: #d8d8d8;
+}
+
+#mensagem{
+    color: rgb(3, 14, 23);
+}
